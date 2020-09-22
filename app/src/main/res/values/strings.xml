@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">HomeSecurity</string>
+    <string name="User">UserName</string>
+    <string name="Password">Password</string>
+    <string name="Phone">PhoneNumber</string>
+    <string name="Login">SIGN IN</string>
+    <string name="SignUp">SIGN UP</string>
+    <string name="Connect">BLUETOOTH CONNECT</string>
+    <string name="ReadTemp">Read Temp</string>
+    <string name="Activate">ACTIVATE ALARM</string>
+    <string name="disalarm">DISALARM</string>
+    <string name="ConnectStream">Connect to Stream</string>
+    <string name="Clear">Clear text</string>
+    <string name="submit">SUBMIT</string>
+    <string name="Pause">pause</string>
+    <string name="Return">Return?</string>
+    <string name="LoginPicture">LoginPicture</string>
+    <string name="Deactivate">Deactivate</string>
+</resources>

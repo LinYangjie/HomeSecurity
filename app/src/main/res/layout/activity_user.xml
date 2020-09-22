@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserActivity">
+
+    <TextView
+        android:id="@+id/message_textView"
+        android:layout_width="338dp"
+        android:layout_height="82dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2"
+        app:layout_constraintVertical_bias="0.54" />
+
+    <VideoView
+        android:id="@+id/videoView"
+        android:layout_width="380dp"
+        android:layout_height="234dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.039" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="387dp"
+        android:layout_height="44dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.424">
+
+        <Button
+            android:id="@+id/connect_button"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/alfa_slab_one"
+            android:text="@string/ConnectStream" />
+
+        <Button
+            android:id="@+id/pause_button"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/alfa_slab_one"
+            android:text="@string/Pause" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="356dp"
+        android:layout_height="245dp"
+        android:layout_marginBottom="8dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/bluetooth_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/alfa_slab_one"
+            android:onClick="connect"
+            android:text="@string/Connect"
+            android:textColor="#038CF4" />
+
+        <Button
+            android:id="@+id/clear_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/alfa_slab_one"
+            android:onClick="clearText"
+            android:text="@string/Clear"
+            android:textColor="#9C27B0" />
+
+        <Button
+            android:id="@+id/temperature_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/alfa_slab_one"
+            android:onClick="readTemp"
+            android:text="@string/ReadTemp"
+            android:textColor="#FF5722" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/activate_button"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="114dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/alfa_slab_one"
+                android:onClick="activate"
+                android:text="@string/Activate"
+                android:textColor="@android:color/holo_red_dark" />
+
+            <Button
+                android:id="@+id/deactivate_button"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="deActivate"
+                android:fontFamily="@font/alfa_slab_one"
+                android:text="@string/Deactivate"
+                android:textColor="#E91E63" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/disalarm_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/alfa_slab_one"
+            android:onClick="disAlarm"
+            android:text="@string/disalarm"
+            android:textColor="#4CAF5E" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

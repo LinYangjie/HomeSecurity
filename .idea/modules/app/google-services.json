@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "974419991084",
+    "firebase_url": "https://homesecur-66abe.firebaseio.com",
+    "project_id": "homesecur-66abe",
+    "storage_bucket": "homesecur-66abe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:974419991084:android:f6e54a0fae2568d7dfcf89",
+        "android_client_info": {
+          "package_name": "com.example.homesecurity"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "974419991084-h4ms8itmisqguierpc7ehsk69bl814fb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.homesecurity",
+            "certificate_hash": "626ef29706ec2af910eb8f72d48f07a67c3d80a7"
+          }
+        },
+        {
+          "client_id": "974419991084-ae0cu4t8grqi9qbr9j90ab7kfar5hqu0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZiIChvJV-lKuSupi_GrVwRI1a0raR2Nc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "974419991084-ae0cu4t8grqi9qbr9j90ab7kfar5hqu0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
