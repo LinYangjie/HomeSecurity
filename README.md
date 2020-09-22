@@ -1,7 +1,8 @@
 # HomeSecurity
 ![subject](https://user-images.githubusercontent.com/50006786/93942256-ea305300-fce4-11ea-9d02-81518a2575b1.png)
 
-###Design Purpose:
+### Design Purpose:
+
 This is an android app enable user to monitor their house and react to different sensors(Arduino).
 
 There are three main activities:
