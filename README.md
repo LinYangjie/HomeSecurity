@@ -10,5 +10,4 @@ There are three main activities:
 - `Sign Up` : For user to register their account by entering username, password, phoneNumber which lined to the supported database cloud FireStore
 
 - `Main` : The main page to monitoring their home and reacts to sensors like accelerometers, temperature sensors
-=======
 
